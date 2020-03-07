@@ -5,7 +5,7 @@
 <script>
 let options = { host: 'mqttbrokeri.herokuapp.com', 
                 port: 443,         
-                protocol: 'wss'     };     
+                protocol: 'wss'     };                    //web-socket salattu
 let client = mqtt.connect(options) 
  
     client.on('connect', () => {         
